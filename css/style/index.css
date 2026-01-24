@@ -86,14 +86,12 @@ h2{
 .section{
     display: flex;
     justify-content: space-between;
+    gap: 16px;
 }
 .img{
     position: relative;
     padding-bottom: 16px;
     width: 330px;
-}
-.img-1{
-    margin-right: 16px;
 }
 .img-1 img{
     display: block;
@@ -194,16 +192,16 @@ footer{
     text-decoration: underline;
 }
 @media(min-width:768px) and (max-width:1200px){
-    header, .title{height: 50vh;}
-    .section{flex-wrap: wrap;}
+    header, .title{height: 50vh; margin: 0;}
+    .section{flex-wrap: wrap; gap: 0;}
     .img, .content{width: 49%;}
     .img-1{margin: 0;}
     .title-2 p{width: 100%;}
 }
 @media(max-width:768px){
     nav, .title i{display: none;}
-    header, .title{height: 35vh;}
-    .section{flex-direction: column;}
+    header, .title{height: 35vh; margin: 0;}
+    .section{flex-direction: column; gap: 0;}
     .img, .title-2 p, .content{width: 100%;}
     .img-1{margin: 0;}
 }
