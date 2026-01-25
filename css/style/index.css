@@ -1,3 +1,9 @@
+/* HEADER */
+header{
+    background: url("../../img/Bg20.jpg")center/cover;
+    height: 100vh;
+    margin: 0 10px;
+}
 /* POSITION CONTENT */
 .header-bg-color{
     background-color: #fff;
@@ -41,12 +47,6 @@ nav a{
     text-transform: capitalize;
     padding: 10px 16px;
     letter-spacing: 5px;
-}
-/* HEADER */
-header{
-    background: url("../../img/Bg20.jpg")center/cover;
-    height: 100vh;
-    margin: 0 10px;
 }
 .title{
     display: flex;
