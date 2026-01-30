@@ -191,6 +191,7 @@ footer{
     color: #fff;
     text-decoration: underline;
 }
+
 @media(min-width:768px) and (max-width:1200px){
     header, .title{height: 50vh; margin: 0;}
     .section{flex-wrap: wrap; gap: 0;}
