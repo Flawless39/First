@@ -15,7 +15,7 @@ header{
 }
 /* CONTAINER */
 .container{
-    width: 90%;
+    width: 1360px;
     margin: 0 auto;
 }
 /* NAVBAR */
@@ -192,7 +192,11 @@ footer{
     text-decoration: underline;
 }
 
+@media(min-width:1200px) and (max-width:1391px){
+    .container{width: 90%;}
+}
 @media(min-width:768px) and (max-width:1200px){
+    .container{width: 90%;}
     header, .title{height: 50vh; margin: 0;}
     .section{flex-wrap: wrap; gap: 0;}
     .img, .content{width: 49%;}
@@ -200,6 +204,7 @@ footer{
     .title-2 p{width: 100%;}
 }
 @media(max-width:768px){
+    .container{width: 90%;}
     nav, .title i{display: none;}
     header, .title{height: 35vh; margin: 0;}
     .section{flex-direction: column; gap: 0;}
