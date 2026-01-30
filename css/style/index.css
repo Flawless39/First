@@ -192,10 +192,10 @@ footer{
     text-decoration: underline;
 }
 
-@media(min-width:1200px) and (max-width:1391px){
+@media(min-width: 1200px) and (max-width: 1391px){
     .container{width: 90%;}
 }
-@media(min-width:768px) and (max-width:1200px){
+@media(min-width: 768px) and (max-width: 1200px){
     .container{width: 90%;}
     header, .title{height: 50vh; margin: 0;}
     .section{flex-wrap: wrap; gap: 0;}
@@ -203,7 +203,7 @@ footer{
     .img-1{margin: 0;}
     .title-2 p{width: 100%;}
 }
-@media(max-width:768px){
+@media(max-width: 768px){
     .container{width: 90%;}
     nav, .title i{display: none;}
     header, .title{height: 35vh; margin: 0;}
